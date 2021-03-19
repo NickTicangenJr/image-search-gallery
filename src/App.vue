@@ -1,10 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
@@ -38,16 +34,16 @@
     </v-app-bar>
 
     <v-main>
-      <searchImage/>
+      <searchImage />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import searchImage from './components/searchImage';
+import searchImage from "./components/searchImage";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     searchImage,
