@@ -24,7 +24,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/NickTicangenJr/image-search-gallery"
         target="_blank"
         text
       >
